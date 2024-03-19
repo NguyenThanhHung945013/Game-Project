@@ -4,6 +4,10 @@
         "module": "ESNext",
         "strict": true,
         "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            "pixi.js": ["../pixi.pixi.min.js"]
+          },
+          "moduleResolution": "node"
     }
 }
